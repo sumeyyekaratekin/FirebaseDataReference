@@ -1,0 +1,46 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adı Giriniz" />
+
+    <EditText
+        android:id="@+id/edt_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyadı Giriniz" />
+
+    <Button
+        android:id="@+id/btn_gonder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Kisi Ekle" />
+
+    <Button
+        android:id="@+id/btn_goster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Kisi Göster" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/ekranayaz"
+        android:hint="Eklenen kişi burada gösterilecek"/>
+
+
+</LinearLayout>
